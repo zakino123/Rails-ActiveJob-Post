@@ -20,4 +20,4 @@ EXPOSE 3000
 
 # Start the main process.
 # ※docker-compose up で rails s するときはここのコメントを外す
-# CMD ["rails", "server", "-b", "0.0.0.0"]
+CMD ["rails", "server", "-b", "0.0.0.0"]
