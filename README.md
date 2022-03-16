@@ -78,3 +78,31 @@ https://breezegroup.co.jp/202004/javascript-fetch/
 ・Ruby on RailsのActiveJobとは?
 
 https://qiita.com/petertakahashi/items/cb9ae73e5ba3020f4a89
+
+・クロスサイトリクエストフォージェリ（CSRF）
+
+https://www.trendmicro.com/ja_jp/security-intelligence/research-reports/threat-solution/csrf.html
+
+・JSONとは？データフォーマット（データ形式）について学ぼう！
+
+https://products.sint.co.jp/topsic/blog/json#:~:text=JSON%E3%81%A8%E3%81%AF%E3%80%8CJavaScript%E3%81%AE,%E3%81%A8%E3%81%A6%E3%82%82%E7%B0%A1%E5%8D%98%E3%81%AB%E3%81%A7%E3%81%8D%E3%81%BE%E3%81%99%E3%80%82
+
+・HTTPリクエストメッセージボディ
+
+https://wa3.i-3-i.info/word1845.html
+
+・HTTPリクエスト/レスポンスとは? HTTPヘッダーを理解しよう
+
+https://webtan.impress.co.jp/e/2010/01/12/7156
+
+・【初学】初めてのAPI（fetchとかpromiseとか良くわからない)
+
+https://qiita.com/irico/items/7267e8983434884cafe2
+
+・【JavaScript】fetch()メソッドについて、Promiseと非同期処理と共に理解を深める
+
+https://post-output.com/%E3%80%90javascript%E3%80%91fetch%E3%83%A1%E3%82%BD%E3%83%83%E3%83%89%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6%E3%80%81promise%E3%81%A8%E9%9D%9E%E5%90%8C%E6%9C%9F%E5%87%A6%E7%90%86%E3%81%A8%E5%85%B1/
+
+・XMLHttpRequest
+
+https://ja.javascript.info/xmlhttprequest
