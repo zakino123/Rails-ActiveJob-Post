@@ -1,5 +1,8 @@
 <h1>Home#index</h1>
 <p>Find me in app/views/home/index.html.erb</p>
+
+<input type="text" id="input_text" name="name_input_text" maxlength="8" size="10">
+<br>
 <button type="button" id="button_get">Fetch API : GET</button> | 
 <button type="button" id="button_post">Fetch API : POST</button>
 <script>
@@ -25,6 +28,9 @@
       key2: "data2",
       key3: 3
     };
+
+    const input_text = document.getElementById('input_text');
+    post_data[input_text.name] = input_text.value
 
     fetch('/get_post', {
       method: 'POST',
