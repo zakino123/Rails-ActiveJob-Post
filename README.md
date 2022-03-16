@@ -110,3 +110,7 @@ https://ja.javascript.info/xmlhttprequest
 ・テスト環境で非同期処理を同期処理にしたい場合のActiveJobの設定
 
 https://qiita.com/yshz/items/e5c80a79ba6171d8ba33
+
+・Railsのルーティングの種類と要点まとめ
+
+https://qiita.com/senou/items/f1491e53450cb347606b
