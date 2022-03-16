@@ -110,3 +110,55 @@ https://ja.javascript.info/xmlhttprequest
 ・テスト環境で非同期処理を同期処理にしたい場合のActiveJobの設定
 
 https://qiita.com/yshz/items/e5c80a79ba6171d8ba33
+
+・Railsのルーティングの種類と要点まとめ
+
+https://qiita.com/senou/items/f1491e53450cb347606b
+
+・【JavaScriptの応用】Fetch APIを利用してHTTPリクエストを送信する方法
+
+https://tcd-theme.com/2021/11/javascript-fetchapi.html
+
+・Response.statusText
+
+https://developer.mozilla.org/en-US/docs/Web/API/Response/statusText
+
+・HTTP レスポンスステータスコード
+
+https://developer.mozilla.org/ja/docs/Web/HTTP/Status
+
+・3.1 CSRFへの対応策 | Rails セキュリティガイド | Railsガイド
+
+https://railsguides.jp/security.html#csrfへの対応策
+
+・Fetch APIを使ってRailsのAPIを叩く | The Pragmatic Ball boy
+
+https://yanamura.hatenablog.com/entry/2017/05/12/094103
+
+・Element.getAttribute()
+
+https://developer.mozilla.org/ja/docs/Web/API/Element/getAttribute
+
+・Fetch API 試してみた。
+
+https://chaika.hatenablog.com/entry/2019/01/08/123000
+
+・Origin (オリジン)
+
+https://developer.mozilla.org/ja/docs/Glossary/Origin
+
+・HTTPヘッダーのContent-Typeを自在に扱う
+
+https://tech.stmn.co.jp/entry/2021/03/15/183722
+
+・JSON.stringify()
+
+https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Global_Objects/JSON/stringify
+
+・できるRubyプログラマになるためのデバッグ手法7選
+
+https://www.sejuku.net/blog/21610
+
+・binding.pryの基本的な使い方
+
+https://qiita.com/daisuke19840125/items/c8e422f7a17fb95de283
