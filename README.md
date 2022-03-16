@@ -106,3 +106,7 @@ https://post-output.com/%E3%80%90javascript%E3%80%91fetch%E3%83%A1%E3%82%BD%E3%8
 ・XMLHttpRequest
 
 https://ja.javascript.info/xmlhttprequest
+
+・テスト環境で非同期処理を同期処理にしたい場合のActiveJobの設定
+
+https://qiita.com/yshz/items/e5c80a79ba6171d8ba33
