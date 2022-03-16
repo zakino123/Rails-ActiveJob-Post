@@ -70,3 +70,11 @@ https://qiita.com/ganyariya/items/3594ec682a3ccf917477
 ・docker-compose upって何？
 
 https://qiita.com/kobori_akira/items/1cd058f180206fd8d139
+
+・【JavaScript】初めて学ぶ！fetch()メソッドと非同期通信
+
+https://breezegroup.co.jp/202004/javascript-fetch/
+
+・Ruby on RailsのActiveJobとは?
+
+https://qiita.com/petertakahashi/items/cb9ae73e5ba3020f4a89

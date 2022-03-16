@@ -37,6 +37,7 @@
 
   var reload = document.getElementById('calljob');
   reload.addEventListener('click', function() {
+    // fetch()メソッドは、「非同期通信という方法で、サーバ上にある欲しいデータを取得できる」
     fetch('/home/call_job', {
       method: 'GET'
     });
