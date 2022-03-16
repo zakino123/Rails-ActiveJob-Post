@@ -21,7 +21,14 @@
   const button_post = document.getElementById('button_post');
   button_post.addEventListener('click', function() {
     fetch('/get_post', {
-      method: 'POST'
+      method: 'POST',
+      // 同じオリジンの場合は認証情報を送る
+      // オリジンとはURLのプロトコル、ドメイン、ポートで定義
+      credentials: 'same-origin',
+      // Request headerにX-CSRF-Tokenを付与
+      headers: {
+        'X-CSRF-Token': getCsrfToken()
+      },
     })
     .then(function(response) {
       const response_message = response.status + ':' + response.statusText
@@ -29,4 +36,16 @@
       window.alert('response_message=' + response_message);
     });
   });
+
+  const getCsrfToken = () => {
+    const metas = document.getElementsByTagName('meta');
+    for (let meta of metas) {
+      // getAttribute()は要素の指定された属性の値を返す
+      if (meta.getAttribute('name') === 'csrf-token') {
+        console.log('csrf-token:', meta.getAttribute('content'));
+        return meta.getAttribute('content');
+      }
+    }
+    return '';
+  }
 </script>
