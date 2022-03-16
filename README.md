@@ -50,3 +50,23 @@ https://qiita.com/Kashiwara/items/f8a4030da6b17e96fabf
 ・Rubyのfirstメソッドとlastメソッドの使い方を現役エンジニアが解説【初心者向け】
 
 https://techacademy.jp/magazine/20570
+
+・Docker 入門 (5) - 名前付きボリューム
+
+https://note.com/npaka/n/nbbdbeefde883
+
+・DevContainer で Ruby 開発する際に厄介な BUNDLE_APP_CONFIG
+
+https://qiita.com/frozenbonito/items/0c515929aba4093e7c47
+
+・package.jsonの中身を理解する
+
+https://qiita.com/dondoko-susumu/items/cf252bd6494412ed7847
+
+・docker-composeで指定するcommandはDockerfileよりも優先される
+
+https://qiita.com/ganyariya/items/3594ec682a3ccf917477
+
+・docker-compose upって何？
+
+https://qiita.com/kobori_akira/items/1cd058f180206fd8d139
