@@ -114,3 +114,15 @@ https://qiita.com/yshz/items/e5c80a79ba6171d8ba33
 ・Railsのルーティングの種類と要点まとめ
 
 https://qiita.com/senou/items/f1491e53450cb347606b
+
+・【JavaScriptの応用】Fetch APIを利用してHTTPリクエストを送信する方法
+
+https://tcd-theme.com/2021/11/javascript-fetchapi.html
+
+・Response.statusText
+
+https://developer.mozilla.org/en-US/docs/Web/API/Response/statusText
+
+・HTTP レスポンスステータスコード
+
+https://developer.mozilla.org/ja/docs/Web/HTTP/Status

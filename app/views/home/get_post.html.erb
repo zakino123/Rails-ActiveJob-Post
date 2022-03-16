@@ -1,2 +1,20 @@
 <h1>Home#get_post</h1>
 <p>Find me in app/views/home/get_post.html.erb</p>
+
+<button type="button" id="button_get">Fetch API : GET</button>
+<script>
+  const button_get = document.getElementById('button_get');
+  button_get.addEventListener('click', function() {
+    fetch('/get_post', {
+      method: 'GET'
+    })
+    // thenメソッドは処理が成功した場合に返す
+    .then(function(response) {
+      // response.status:HTTPレスポンスステータスコードを返す
+      // response.statusText:HTTPコードが200はOK、100はContinue、404はNot found
+      const response_message = response.status + ':' + response.statusText
+      console.log(response_message);
+      window.alert('response_message=' + response_message);
+    });
+  });
+</script>
