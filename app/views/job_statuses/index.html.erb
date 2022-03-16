@@ -4,6 +4,7 @@
 
 <button type="button" id="reload">reload</button>
 <button type="button" id="calljob">call job</button>
+<%# <button type="button" id="calljob_synchronized">call job synchronized</button> %>
 
 <table>
   <thead>
@@ -42,4 +43,12 @@
       method: 'GET'
     });
   });
+
+  // var reload = document.getElementById('calljob_synchronized');
+  // reload.addEventListener('click', function() {
+  //   // fetch()メソッドは、「非同期通信という方法で、サーバ上にある欲しいデータを取得できる」
+  //   fetch('/home/call_job_synchronized', {
+  //     method: 'GET'
+  //   });
+  // });
 </script>
