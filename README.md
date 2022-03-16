@@ -146,3 +146,19 @@ https://chaika.hatenablog.com/entry/2019/01/08/123000
 ・Origin (オリジン)
 
 https://developer.mozilla.org/ja/docs/Glossary/Origin
+
+・HTTPヘッダーのContent-Typeを自在に扱う
+
+https://tech.stmn.co.jp/entry/2021/03/15/183722
+
+・JSON.stringify()
+
+https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Global_Objects/JSON/stringify
+
+・できるRubyプログラマになるためのデバッグ手法7選
+
+https://www.sejuku.net/blog/21610
+
+・binding.pryの基本的な使い方
+
+https://qiita.com/daisuke19840125/items/c8e422f7a17fb95de283

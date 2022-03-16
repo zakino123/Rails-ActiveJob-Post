@@ -20,15 +20,25 @@
 
   const button_post = document.getElementById('button_post');
   button_post.addEventListener('click', function() {
+    const post_data = {
+      key1: "data1",
+      key2: "data2",
+      key3: 3
+    };
+
     fetch('/get_post', {
       method: 'POST',
       // 同じオリジンの場合は認証情報を送る
       // オリジンとはURLのプロトコル、ドメイン、ポートで定義
       credentials: 'same-origin',
-      // Request headerにX-CSRF-Tokenを付与
       headers: {
+        // リクエスト時にメディアタイプを指定する役割(今回はJSONファイル)
+        'Content-Type': 'application/json',
+        // Request headerにX-CSRF-Tokenを付与
         'X-CSRF-Token': getCsrfToken()
       },
+      // JavaScript のオブジェクトや値を JSON 文字列に変換
+      body: JSON.stringify(post_data),
     })
     .then(function(response) {
       const response_message = response.status + ':' + response.statusText
