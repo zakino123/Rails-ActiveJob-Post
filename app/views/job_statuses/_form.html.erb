@@ -1,8 +1,7 @@
-
+<%# form_withを使わずに、htmlタグでフォームを実装した為%>
 <%
 =begin
 %>
-form_withを使わずに、htmlタグでフォームを実装した為
 
 <%= form_with(model: job_status) do |form| %>
   <% if job_status.errors.any? %>
