@@ -1,7 +1,11 @@
 <h1>Home#index</h1>
 <p>Find me in app/views/home/index.html.erb</p>
 
-<input type="text" id="input_text" name="name_input_text" maxlength="8" size="10">
+input_text: <input type="text" id="input_text" name="name_input_text" maxlength="8" size="10">
+<br>
+keywords: <input type="text" group='keyword' maxlength="8" size="10">
+<input type="text" group='keyword' maxlength="8" size="10">
+<input type="text" group='keyword' maxlength="8" size="10">
 <br>
 <button type="button" id="button_get">Fetch API : GET</button> | 
 <button type="button" id="button_post">Fetch API : POST</button>
@@ -30,7 +34,17 @@
     };
 
     const input_text = document.getElementById('input_text');
-    post_data[input_text.name] = input_text.value
+    post_data[input_text.name] = input_text.value;
+
+    // input要素のgroup属性がkeywordの静的なNodeListを返す
+    // Nodeはドキュメント自身で、要素やテキスト、コメントなどがある
+    const keyword_nodes = document.querySelectorAll("input[group='keyword']");
+    const keyword_data = [];
+    for (let keyword_node of keyword_nodes) {
+      const keyword = {keyword: keyword_node.value};
+      keyword_data.push(keyword);
+    }
+    post_data['keywords'] = keyword_data;
 
     fetch('/get_post', {
       method: 'POST',

@@ -162,3 +162,35 @@ https://www.sejuku.net/blog/21610
 ・binding.pryの基本的な使い方
 
 https://qiita.com/daisuke19840125/items/c8e422f7a17fb95de283
+
+・Document.querySelectorAll()
+
+https://developer.mozilla.org/ja/docs/Web/API/Document/querySelectorAll
+
+・NodeList
+
+https://developer.mozilla.org/ja/docs/Web/API/NodeList
+
+・Node (DOM)
+
+https://developer.mozilla.org/ja/docs/Glossary/Node/DOM
+
+・【Rails】 permitメソッドを使ってストロングパラメーターにしよう
+
+https://pikawaka.com/rails/permit
+
+・【Ruby】 to_hメソッドの使い方を理解しよう
+
+https://pikawaka.com/ruby/to_h
+
+・ネストするStrong Parametersの書きかた
+
+https://qiita.com/kymmt90/items/4ce8618ca8f537b2ef7e
+
+・RailsのStrongParametersと友だちになった
+
+https://qiita.com/staka121/items/b564e980fb1ae51a462e
+
+・【Ruby on Rails】ストロングパラメータって何なの？
+
+https://qiita.com/ozackiee/items/f100fd51f4839b3fdca8
