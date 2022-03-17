@@ -2,6 +2,7 @@
 <%
 =begin
 %>
+form_withを使わずに、htmlタグでフォームを実装した為
 
 <%= form_with(model: job_status) do |form| %>
   <% if job_status.errors.any? %>
@@ -45,8 +46,8 @@
   <% end %>
   <input type="hidden" name="authenticity_token" value="RarC_7_4hHswkRJGvNbhjnHwvyB3uQK9340ZsYRKtFnHEE7hdtkpovi7zTeR2EITZCDRxsOnfioVFnov5pgIEg">
   <div class="field">
-    <label for="status">Status</label>
-    <input type="number" name="job_status[status]">
+    <label for="job_status_status">Status</label>
+    <input type="number" name="job_status[status]" id="job_status_status">
   </div>
   <div class="actions">
     <%# data-disable-with属性でクリックした後に、「Create Job Status」という文言にし、クリック禁止にできる(ダブルクリック防止) %>
