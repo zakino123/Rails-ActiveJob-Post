@@ -214,3 +214,7 @@ https://html-coding.co.jp/annex/dictionary/html/input/
 ・[Rails]submitタグにつけておきたいdisable_withオプション
 
 https://qiita.com/sue738/items/09f569bdc3a73d26df88
+
+・<label>の解説｜クロノドライブのHTML辞典Chrono Drive（クロノドライブ）
+
+https://html-coding.co.jp/annex/dictionary/html/label/
