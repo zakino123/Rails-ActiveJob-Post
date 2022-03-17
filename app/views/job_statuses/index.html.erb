@@ -31,12 +31,12 @@
 <%= link_to 'New Job Status', new_job_status_path %>
 
 <script>
-  const reload = () => {
+  const reload = function() {
     window.location.reload();
     console.log("リロード完了")
   }
 
-  const calljob = () => {
+  const calljob = function() {
     fetch('/home/call_job', {
       method: 'GET'
     });
