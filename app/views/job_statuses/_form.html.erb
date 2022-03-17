@@ -1,3 +1,8 @@
+<%# form_withを使わずに、htmlタグでフォームを実装した為、form_with のコードをコメントアウトしました。%>
+<%
+=begin
+%>
+
 <%= form_with(model: job_status) do |form| %>
   <% if job_status.errors.any? %>
     <div id="error_explanation">
@@ -20,3 +25,31 @@
     <%= form.submit %>
   </div>
 <% end %>
+
+<%
+=end
+%>
+
+<form action="/job_statuses" method="post">
+  <% if job_status.errors.any? %>
+    <div id="error_explanation">
+      <%# pluralizeメソッドは英語の単数や複数を出し分ける %>
+      <h2><%= pluralize(job_status.errors.count, "error") %> prohibited this job_status from being saved:</h2>
+
+      <ul>
+        <% job_status.errors.each do |error| %>
+          <li><%= error.full_message %></li>
+        <% end %>
+      </ul>
+    </div>
+  <% end %>
+  <input type="hidden" name="authenticity_token" value="RarC_7_4hHswkRJGvNbhjnHwvyB3uQK9340ZsYRKtFnHEE7hdtkpovi7zTeR2EITZCDRxsOnfioVFnov5pgIEg">
+  <div class="field">
+    <label for="job_status_status">Status</label>
+    <input type="number" name="job_status[status]" id="job_status_status">
+  </div>
+  <div class="actions">
+    <%# data-disable-with属性でクリックした後に、「Create Job Status」という文言にし、クリック禁止にできる(ダブルクリック防止) %>
+    <input type="submit" name="commit" value="Create Job status" data-disable-with="Create Job status">
+  </div>
+</form>
