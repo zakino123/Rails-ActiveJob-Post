@@ -194,3 +194,23 @@ https://qiita.com/staka121/items/b564e980fb1ae51a462e
 ・【Ruby on Rails】ストロングパラメータって何なの？
 
 https://qiita.com/ozackiee/items/f100fd51f4839b3fdca8
+
+・【Ruby on Rails】ビューを複数行コメントアウトする方法について解説します
+
+https://www.tairaengineer-note.com/ruby-on-rails-multi-line-comment-out/#1beginend
+
+・Action View フォームヘルパー
+
+https://railsguides.jp/form_helpers.html
+
+・「pluralize」の果たす役割について
+
+https://teratail.com/questions/99295
+
+・<input>の解説｜クロノドライブのHTML辞典Chrono Drive（クロノドライブ）
+
+https://html-coding.co.jp/annex/dictionary/html/input/
+
+・[Rails]submitタグにつけておきたいdisable_withオプション
+
+https://qiita.com/sue738/items/09f569bdc3a73d26df88
