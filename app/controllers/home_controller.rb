@@ -23,9 +23,9 @@ class HomeController < ApplicationController
     end
   end
 
-  # def call_job
-  #   SampleJob.perform_later
-  # end
+  def call_job
+    SampleJob.perform_later
+  end
 
   # def call_job_synchronized
   #   SampleJob.perform_now

@@ -218,3 +218,11 @@ https://qiita.com/sue738/items/09f569bdc3a73d26df88
 ・<label>の解説｜クロノドライブのHTML辞典Chrono Drive（クロノドライブ）
 
 https://html-coding.co.jp/annex/dictionary/html/label/
+
+・【js】onclickとaddEventListenerの違い
+
+https://qiita.com/KKKarin/items/ccb8ed361ab9acd1f9cf
+
+・【JavaScriptの基本】アロー関数とは？通常の関数との違いについて解説
+
+https://tcd-theme.com/2021/06/javascript-function2.html?gclid=CjwKCAjwlcaRBhBYEiwAK341jVjMVvgFfguTs02tSLQOJppTN1TpvSe2VOTUdRaauzyOvx09YhSWaxoCzCEQAvD_BwE
