@@ -227,6 +227,10 @@ https://qiita.com/KKKarin/items/ccb8ed361ab9acd1f9cf
 
 https://tcd-theme.com/2021/06/javascript-function2.html?gclid=CjwKCAjwlcaRBhBYEiwAK341jVjMVvgFfguTs02tSLQOJppTN1TpvSe2VOTUdRaauzyOvx09YhSWaxoCzCEQAvD_BwE
 
+・Fetch API を使うときの適切なエラー処理方法 | Zenn | 北山淳也
+
+https://zenn.dev/junki555/articles/4ab67fc78ce64c
+
 ・なんとなく CORS がわかる...はもう終わりにする。
 
 https://qiita.com/att55/items/2154a8aad8bf1409db2b
