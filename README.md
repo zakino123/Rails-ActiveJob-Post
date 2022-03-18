@@ -226,3 +226,15 @@ https://qiita.com/KKKarin/items/ccb8ed361ab9acd1f9cf
 ・【JavaScriptの基本】アロー関数とは？通常の関数との違いについて解説
 
 https://tcd-theme.com/2021/06/javascript-function2.html?gclid=CjwKCAjwlcaRBhBYEiwAK341jVjMVvgFfguTs02tSLQOJppTN1TpvSe2VOTUdRaauzyOvx09YhSWaxoCzCEQAvD_BwE
+
+・なんとなく CORS がわかる...はもう終わりにする。
+
+https://qiita.com/att55/items/2154a8aad8bf1409db2b
+
+・Fetch の使用 | Web API | MDN
+
+https://developer.mozilla.org/ja/docs/Web/API/Fetch_API/Using_Fetch
+
+・Response | Web API | MDN
+
+https://developer.mozilla.org/ja/docs/Web/API/Response
