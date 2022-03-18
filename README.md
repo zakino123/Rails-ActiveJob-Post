@@ -246,3 +246,7 @@ https://developer.mozilla.org/ja/docs/Web/API/Response
 ・throw | mdn web docs
 
 https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Statements/throw
+
+・今日こそ理解するCORS 
+
+https://www.youtube.com/watch?v=yBcnonX8Eak
