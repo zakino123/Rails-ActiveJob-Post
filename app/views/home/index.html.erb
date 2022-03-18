@@ -61,10 +61,16 @@ keywords: <input type="text" group='keyword' maxlength="8" size="10">
       body: JSON.stringify(post_data),
     })
     .then(function(response) {
+      if (!response.ok) {
+        console.error('サーバーエラー');
+      }
       const response_message = response.status + ':' + response.statusText
       console.log(response_message);
       window.alert('response_message=' + response_message);
     });
+    .catch(function(error) {
+      console.error('通信に失敗しました', error)
+    })
   });
 
   const getCsrfToken = () => {
