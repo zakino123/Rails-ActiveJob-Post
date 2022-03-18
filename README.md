@@ -242,3 +242,7 @@ https://developer.mozilla.org/ja/docs/Web/API/Fetch_API/Using_Fetch
 ・Response | Web API | MDN
 
 https://developer.mozilla.org/ja/docs/Web/API/Response
+
+・throw | mdn web docs
+
+https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Statements/throw

@@ -62,14 +62,19 @@ keywords: <input type="text" group='keyword' maxlength="8" size="10">
     })
     .then(function(response) {
       if (!response.ok) {
-        console.error('サーバーエラー');
+        console.error('response.ok:', response.ok);
+        console.error('response.status:', response.status);
+        console.error('response.statusText:', response.statusText);
+        // throw文はコールスタック内の最初の catch ブロックに制御を移す
+        // throw new Errorでエラーオブジェクトを生成
+        throw new Error(response.statusText)
       }
       const response_message = response.status + ':' + response.statusText
       console.log(response_message);
       window.alert('response_message=' + response_message);
     });
     .catch(function(error) {
-      console.error('通信に失敗しました', error)
+      console.error('エラーが発生しました', error)
     })
   });
 
