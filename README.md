@@ -250,3 +250,7 @@ https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Statements/throw
 ・今日こそ理解するCORS 
 
 https://www.youtube.com/watch?v=yBcnonX8Eak
+
+・githubで自分のリポジトリをforkする
+
+https://qiita.com/moyashidaisuke/items/2efff3d94f140fe68a91
