@@ -1,7 +1,8 @@
 Rails.application.routes.draw do
   get 'users/new'
-  get 'users', to: "users#index"
+  get 'users/index', to: "users#index"
   post 'users', to: 'users#create'
+  get 'users/:id', to: "users#show"
   get 'home/index'
   get 'home/call_job'
   get 'home/call_job_synchronized'

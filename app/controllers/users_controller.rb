@@ -4,8 +4,8 @@ class UsersController < ApplicationController
 
   def create
     permit_parameters = params.require(:user).permit(:name, :age)
-    @user = User.new(permit_parameters)
-    if @user.save
+    user = User.new(permit_parameters)
+    if user.save
       render 'new'
     end
     pp permit_parameters[:name]
@@ -13,5 +13,10 @@ class UsersController < ApplicationController
   end
 
   def index
+    @users = User.all
+  end
+
+  def show
+    @user = User.find(params[:id])
   end
 end
