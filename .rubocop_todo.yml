@@ -11,27 +11,27 @@
 # Configuration parameters: EnforcedStyle, EnforcedStyleForEmptyBrackets.
 # SupportedStyles: space, no_space, compact
 # SupportedStylesForEmptyBrackets: space, no_space
-Layout/SpaceInsideArrayLiteralBrackets:
-  Exclude:
-    - 'config/environments/production.rb'
+# Layout/SpaceInsideArrayLiteralBrackets:
+#   Exclude:
+#     - 'config/environments/production.rb'
 
 # Offense count: 2
 # This cop supports safe auto-correction (--auto-correct).
-Layout/SpaceInsidePercentLiteralDelimiters:
-  Exclude:
-    - 'app/controllers/job_statuses_controller.rb'
+# Layout/SpaceInsidePercentLiteralDelimiters:
+#   Exclude:
+#     - 'app/controllers/job_statuses_controller.rb'
 
 # Offense count: 1
 # This cop supports safe auto-correction (--auto-correct).
 # Configuration parameters: AllowUnusedKeywordArguments, IgnoreEmptyMethods, IgnoreNotImplementedMethods.
-Lint/UnusedMethodArgument:
-  Exclude:
-    - 'app/jobs/sample_job.rb'
+# Lint/UnusedMethodArgument:
+#   Exclude:
+#     - 'app/jobs/sample_job.rb'
 
 # Offense count: 1
-Lint/UselessAssignment:
-  Exclude:
-    - 'app/jobs/sample_job.rb'
+# Lint/UselessAssignment:
+#   Exclude:
+#     - 'app/jobs/sample_job.rb'
 
 # Offense count: 1
 # Configuration parameters: IgnoredMethods, CountRepeatedAttributes.

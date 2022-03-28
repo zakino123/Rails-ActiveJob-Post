@@ -2,7 +2,7 @@ class SampleJob < ApplicationJob
   # Jobが入るキューを指定
   queue_as :default
 
-  def perform(*args)
+  def perform(*_args)
     # 後で実行したい作業をここに書く
     # logger.debugを使用するとlog/development.logにlogを出力できる
     logger.debug "Sample Job Start."

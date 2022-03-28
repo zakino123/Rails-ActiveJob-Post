@@ -1,5 +1,5 @@
 class JobStatusesController < ApplicationController
-  before_action :set_job_status, only: %i[ show edit update destroy ]
+  before_action :set_job_status, only: %i[show edit update destroy]
 
   # GET /job_statuses or /job_statuses.json
   def index
