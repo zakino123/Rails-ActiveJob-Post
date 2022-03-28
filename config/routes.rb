@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
   get 'users/new'
+  get 'users', to: "users#index"
   post 'users', to: 'users#create'
   get 'home/index'
   get 'home/call_job'
