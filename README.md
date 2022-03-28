@@ -254,3 +254,5 @@ https://www.youtube.com/watch?v=yBcnonX8Eak
 ・githubで自分のリポジトリをforkする
 
 https://qiita.com/moyashidaisuke/items/2efff3d94f140fe68a91
+
+- [Rails テーブルのデータ型について](https://qiita.com/s_tatsuki/items/900d662a905c7e36b3d4)

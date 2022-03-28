@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
-  resources :users
+  get 'users/new'
+  post 'users', to: 'users#create'
   get 'home/index'
   get 'home/call_job'
   get 'home/call_job_synchronized'
