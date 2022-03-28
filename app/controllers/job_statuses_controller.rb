@@ -58,13 +58,14 @@ class JobStatusesController < ApplicationController
   end
 
   private
-    # Use callbacks to share common setup or constraints between actions.
-    def set_job_status
-      @job_status = JobStatus.find(params[:id])
-    end
 
-    # Only allow a list of trusted parameters through.
-    def job_status_params
-      params.require(:job_status).permit(:status)
-    end
+  # Use callbacks to share common setup or constraints between actions.
+  def set_job_status
+    @job_status = JobStatus.find(params[:id])
+  end
+
+  # Only allow a list of trusted parameters through.
+  def job_status_params
+    params.require(:job_status).permit(:status)
+  end
 end
