@@ -3,7 +3,7 @@ class UsersController < ApplicationController
   end
 
   def create
-    permit_parameters = params.require(:user).permit(:name)
+    permit_parameters = params.require(:user).permit(:name, :age)
     @user = User.new(permit_parameters)
     if @user.save
       render 'new'
