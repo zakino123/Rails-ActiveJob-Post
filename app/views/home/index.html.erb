@@ -12,7 +12,7 @@ keywords: <input type="text" group='keyword' maxlength="8" size="10">
 <script>
   const button_get = document.getElementById('button_get');
   button_get.addEventListener('click', function() {
-    fetch('/get_post', {
+    fetch('/getpost', {
       method: 'GET'
     })
     // thenメソッドは処理が成功した場合に返す
@@ -46,7 +46,7 @@ keywords: <input type="text" group='keyword' maxlength="8" size="10">
     }
     post_data['keywords'] = keyword_data;
 
-    fetch('/get_post', {
+    fetch('/getpost', {
       method: 'POST',
       // 同じオリジンの場合は認証情報を送る
       // オリジンとはURLのプロトコル、ドメイン、ポートで定義

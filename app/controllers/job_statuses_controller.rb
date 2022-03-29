@@ -1,3 +1,4 @@
+# ジョブステータスコントローラー設定
 class JobStatusesController < ApplicationController
   before_action :set_job_status, only: %i[show edit update destroy]
 

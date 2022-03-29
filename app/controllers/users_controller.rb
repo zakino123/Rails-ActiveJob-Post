@@ -1,3 +1,4 @@
+# ユーザーコントローラー設定
 class UsersController < ApplicationController
   def new
   end
