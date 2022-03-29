@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 # ジョブステータステーブル設定
 class CreateJobStatuses < ActiveRecord::Migration[6.1]
   def change

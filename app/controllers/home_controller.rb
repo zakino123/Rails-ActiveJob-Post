@@ -1,7 +1,8 @@
+# frozen_string_literal: true
+
 # ホームコントローラー設定
 class HomeController < ApplicationController
-  def index
-  end
+  def index; end
 
   def getpost
     # binding.pry

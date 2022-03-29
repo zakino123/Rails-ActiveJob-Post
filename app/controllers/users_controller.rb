@@ -1,14 +1,13 @@
+# frozen_string_literal: true
+
 # ユーザーコントローラー設定
 class UsersController < ApplicationController
-  def new
-  end
+  def new; end
 
   def create
     permit_parameters = params.require(:user).permit(:name, :age)
     user = User.new(permit_parameters)
-    if user.save
-      render 'new'
-    end
+    render 'new' if user.save
     pp permit_parameters[:name]
     pp permit_parameters[:age]
   end

@@ -1,1 +1,3 @@
-json.array! @job_statuses, partial: "job_statuses/job_status", as: :job_status
+# frozen_string_literal: true
+
+json.array! @job_statuses, partial: 'job_statuses/job_status', as: :job_status

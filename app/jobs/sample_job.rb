@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 # サンプルジョブ設定
 class SampleJob < ApplicationJob
   # Jobが入るキューを指定

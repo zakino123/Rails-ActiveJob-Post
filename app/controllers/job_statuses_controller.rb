@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 # ジョブステータスコントローラー設定
 class JobStatusesController < ApplicationController
   before_action :set_job_status, only: %i[show edit update destroy]
@@ -8,8 +10,7 @@ class JobStatusesController < ApplicationController
   end
 
   # GET /job_statuses/1 or /job_statuses/1.json
-  def show
-  end
+  def show; end
 
   # GET /job_statuses/new
   def new
@@ -17,8 +18,7 @@ class JobStatusesController < ApplicationController
   end
 
   # GET /job_statuses/1/edit
-  def edit
-  end
+  def edit; end
 
   # POST /job_statuses or /job_statuses.json
   def create
@@ -26,7 +26,7 @@ class JobStatusesController < ApplicationController
 
     respond_to do |format|
       if @job_status.save
-        format.html { redirect_to job_status_url(@job_status), notice: "Job status was successfully created." }
+        format.html { redirect_to job_status_url(@job_status), notice: 'Job status was successfully created.' }
         format.json { render :show, status: :created, location: @job_status }
       else
         format.html { render :new, status: :unprocessable_entity }
@@ -39,7 +39,7 @@ class JobStatusesController < ApplicationController
   def update
     respond_to do |format|
       if @job_status.update(job_status_params)
-        format.html { redirect_to job_status_url(@job_status), notice: "Job status was successfully updated." }
+        format.html { redirect_to job_status_url(@job_status), notice: 'Job status was successfully updated.' }
         format.json { render :show, status: :ok, location: @job_status }
       else
         format.html { render :edit, status: :unprocessable_entity }
@@ -53,7 +53,7 @@ class JobStatusesController < ApplicationController
     @job_status.destroy
 
     respond_to do |format|
-      format.html { redirect_to job_statuses_url, notice: "Job status was successfully destroyed." }
+      format.html { redirect_to job_statuses_url, notice: 'Job status was successfully destroyed.' }
       format.json { head :no_content }
     end
   end
