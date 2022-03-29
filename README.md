@@ -264,3 +264,5 @@ https://qiita.com/moyashidaisuke/items/2efff3d94f140fe68a91
 - [bankenの思想を読み解く](https://nisshiee.hatenablog.jp/entry/2017/04/18/193403)
 
 - [kyuden/banken](https://github.com/kyuden/banken)
+
+- [Rails権限・ロールまわり調査](https://qiita.com/Takuya-Nakamura/items/6c27e0e0ad5947561194)
