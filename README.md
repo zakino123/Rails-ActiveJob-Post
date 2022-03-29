@@ -247,7 +247,7 @@ https://developer.mozilla.org/ja/docs/Web/API/Response
 
 https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Statements/throw
 
-・今日こそ理解するCORS 
+・今日こそ理解するCORS
 
 https://www.youtube.com/watch?v=yBcnonX8Eak
 
@@ -257,4 +257,10 @@ https://qiita.com/moyashidaisuke/items/2efff3d94f140fe68a91
 
 - [Rails テーブルのデータ型について](https://qiita.com/s_tatsuki/items/900d662a905c7e36b3d4)
 
-- [[Railsエラー解決法] No template found for Controller#method ～](https://kirohi.com/no_template_found_for#usersupdatehtmlerb) 
+- [[Railsエラー解決法] No template found for Controller#method ～](https://kirohi.com/no_template_found_for#usersupdatehtmlerb)
+
+- [Punditをなるべくやさしく解説する](https://qiita.com/yutaro50/items/52484b7ae4ca87aa99a2)
+
+- [bankenの思想を読み解く](https://nisshiee.hatenablog.jp/entry/2017/04/18/193403)
+
+- [kyuden/banken](https://github.com/kyuden/banken)
