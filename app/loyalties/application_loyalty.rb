@@ -1,10 +1,10 @@
 class ApplicationLoyalty
-  attr_reader :user, :record
+  # attr_reader :user, :record
 
-  def initialize(user, record)
-    @user = user
-    @record = record
-  end
+  # def initialize(user, record)
+  #   @user = user
+  #   @record = record
+  # end
 
   def index?
     false
